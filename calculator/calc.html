@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>BMI calculator</title>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="calculate.css">
+
+</head>
+
+<body>
+        
+  <div class="container">
+
+    <h1> BMI Calculator - A Javascript project</h1>
+        
+      <label for="weight" class="weight"> Weight (in kgs) : </label>
+      <input type="numbers" id="weight"> 
+      <br>
+      
+       <label for="height" class="height"> Height (in cms) : </label>
+       <input type="numbers" id="height">
+       <br> 
+        
+      <button onclick='calculateBmi()' class="btn btn-md btn-block">Compute BMI</button>
+      
+         
+      <p id="heading"></p>
+      <p id="message"></p>
+          
+  </div>
+
+  <script src="calc.js"></script> 
+  
+</body>
+
+</html>
